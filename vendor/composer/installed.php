@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'c1fca2e31b0d098e95cb9130c2651a75b8d9b0bc',
+        'reference' => 'a7107027f8a2523f1333f4f0bb79381b64cc7d02',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -33,6 +33,15 @@
             'replaced' => array(
                 0 => '*',
             ),
+        ),
+        'crestapps/laravel-code-generator' => array(
+            'pretty_version' => 'v2.4.9',
+            'version' => '2.4.9.0',
+            'reference' => 'f418478ef7984a4962d1d9ce1ef2edcba4bb9570',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../crestapps/laravel-code-generator',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'davedevelopment/hamcrest-php' => array(
             'dev_requirement' => true,
@@ -424,7 +433,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'c1fca2e31b0d098e95cb9130c2651a75b8d9b0bc',
+            'reference' => 'a7107027f8a2523f1333f4f0bb79381b64cc7d02',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -28,6 +28,6 @@ Route::middleware('auth:api')->group(function () {
 
 Route::post('register', [PassportAuthController::class, 'register']);
 Route::post('login', [PassportAuthController::class, 'login'])->name('login');
-Route::get('users', [UserController::class, 'index'])->name('users');
+
 
 
