@@ -55,24 +55,24 @@
             "@php artisan package:discover --ansi",
             "@php artisan clear-compiled",
             "@chmod -R 777 storage",
-            "@chmod -R 777 bootstrap"
+            "@php artisan cache:clear"
         ],
         "post-install-cmd": [
         "php artisan clear-compiled",
         "chmod -R 777 storage",
-        "chmod -R 777 bootstrap"
+        "php artisan cache:clear"
     ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
             "@php artisan clear-compiled",
             "@chmod -R 777 storage",
-            "@chmod -R 777 bootstrap"
+            "@php artisan cache:clear"
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi",
             "@php artisan clear-compiled",
             "@chmod -R 777 storage",
-            "@chmod -R 777 bootstrap"
+            "@php artisan cache:clear"
         ]
     }
 }
